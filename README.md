@@ -1,7 +1,5 @@
 # 🖼️ AI Image Generator
 
-**Repository:** `mansi-katiyar/AI_Image_Generator-`
-
 ## 📌 Overview
 The **AI Image Generator** is a full-stack project developed by **Mansi Katiyar**.  
 It allows users to generate unique AI-powered images from text prompts using advanced machine learning models (such as OpenAI/DALLE or Stable Diffusion).  
@@ -61,24 +59,42 @@ Push to branch and open a PR
 Specify a license (e.g., MIT).
 ---
 ## 📂 Repository Structure
-AI_Image_Generator-
+AI_Image_Generator
+
 │
+
 ├─ client/ # Frontend (React)
+
 │ ├─ public/
+
 │ └─ src/
+
 │ ├─ components/
+
 │ ├─ pages/
+
 │ ├─ services/
+
 │ └─ App.jsx
+
 │
+
 ├─ server/ # Backend (Node + Express)
+
 │ ├─ controllers/
+
 │ ├─ models/
+
 │ ├─ routes/
+
 │ └─ app.js
+
 │
+
 ├─ .gitignore
+
 └─ README.md
+
 ---
 
 ## ⚡ Installation & Setup
@@ -88,7 +104,6 @@ git clone https://github.com/mansi-katiyar/AI_Image_Generator-.git
 cd AI_Image_Generator-
 Setup Backend
 
-```bash
 cd server
 npm install
 # create .env file with API key and DB connection
@@ -96,15 +111,12 @@ npm run dev
 Setup Frontend
 
 ---
-```bash
-
 cd ../client
 npm install
 npm start
 👉 Open the app at: http://localhost:3000
 ---
 
-```bash
 🔧 Environment Variables
 Create a .env file inside server/ with:
 
