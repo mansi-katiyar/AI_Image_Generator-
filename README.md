@@ -40,7 +40,9 @@ The application is designed with a **React frontend** and a **Node.js + Express 
  Support multiple AI models (Stable Diffusion, DALLE)
 
  Deploy on Vercel (frontend) & Render/Heroku (backend)
+ 
 ---
+
 ##🤝 Contributing
 
 Contributions are welcome!
@@ -53,11 +55,15 @@ Create a feature branch (git checkout -b feat/feature-name)
 Commit changes (git commit -m "feat: add feature")
 
 Push to branch and open a PR
+
 ---
+
 ##📜 License
 
 Specify a license (e.g., MIT).
+
 ---
+
 ## 📂 Repository Structure
 AI_Image_Generator
 
@@ -110,12 +116,12 @@ npm install
 npm run dev
 Setup Frontend
 
----
+
 cd ../client
 npm install
 npm start
 👉 Open the app at: http://localhost:3000
----
+
 
 🔧 Environment Variables
 Create a .env file inside server/ with:
@@ -124,4 +130,4 @@ PORT=5000
 DB_URI=mongodb://localhost:27017/ai_image_generator
 JWT_SECRET=your_secret_key
 OPENAI_API_KEY=your_openai_api_key
----
+
